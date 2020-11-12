@@ -1,0 +1,100 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+h2 {
+  float: right;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 1.25em;
+}
+
+.row {
+	position: absolute;
+}
+
+#chicken-header{
+	background-color: orange;
+}
+
+#beef-header{
+	background-color: red;
+}
+
+#sushi-header{
+	background-color: yellow;
+}
+
+h1, h2, p{
+	font-family:courier,arial,helvetica;
+}
+
+p {
+  width: 90%;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: black;
+  clear: right;
+}
+
+/* Simple Responsive Framework. */
+
+/********** Desktop View **********/
+@media (min-width: 992px) {
+ .desktop-view {
+    float: left;
+    border: 1px solid black;
+    background-color: gray;
+    margin-left: 0.9%;
+    margin-right: 0.9%;
+    margin-top: 2%;
+  }
+  .desktop-view {
+    width: 31.5%;
+  }
+}
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 992px) {
+  .tablet-view-1, .tablet-view-2 {
+    float: left;
+    border: 1px solid black;
+    background-color: gray;
+    margin-left: 0.9%;
+    margin-right: 0.9%;
+    margin-top: 2%;
+  }
+  .tablet-view-1 {
+    width: 98.2%;
+  }
+  .tablet-view-2 {
+    width: 48.2%;
+  }
+}
+
+/********** Mobile View **********/
+@media (max-width: 768px) {
+  .mobile-view {
+    float: left;
+    border: 1px solid black;
+    background-color: gray;
+    margin-left: 0.9%;
+    margin-right: 0.9%;
+    margin-top: 2%;
+  }
+  .mobile-view {
+    width: 98.2%;
+  }
+}
